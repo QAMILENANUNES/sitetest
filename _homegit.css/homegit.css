@@ -1,0 +1,47 @@
+<meta charset"UTF-8">
+<font-face{
+     font-family:'FonteLogo';
+     src: url("../_fonts/bubblegum-sans-regular.otf");
+ }>
+<style type="text/css">
+body{
+		background-color: white;
+		color: rgba(0,0,0,.5);
+	}
+
+div#interface{
+	width: 1000px;
+	background-color: #ffffff;
+	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 10px black;
+	padding:  10px;
+}
+header#topo img#icone{
+	 position: absolute;
+    left: 1000px;
+    top:60px;
+}
+
+/*Formatação do menu*/
+
+nav#menu{
+	display: block;
+}
+
+nav#menu ul{list-style:none;
+	text-transform: uppercase;
+	position: absolute;
+	top:10px;
+	left:0px;
+
+}
+nav#menu li{
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+}
+nav#menu h1{
+	display: none;
+}
+	</style>
