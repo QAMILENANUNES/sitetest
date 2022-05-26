@@ -1,12 +1,28 @@
 <meta charset"UTF-8">
 <font-face{
      font-family:'FonteLogo';
+
  }>
 <style type="text/css">
 body{
 		background-color: white;
 		color: rgba(0,0,0,.5);
 	}
+
+/*formatação de imagens com legenda */
+figure.foto-legenda{
+position: relative;
+border: 8px solid white;
+box-shadow:  1px 1px 4px black;
+}
+figure.foto-legenda img{
+	width: 100% ;
+	height: 100%;
+}
+figure.foto-legenda figcaption{
+	position: absolute;
+	top: 0px;
+}
 
 div#interface{
 	width: 1000px;
